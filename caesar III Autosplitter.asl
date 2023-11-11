@@ -13,8 +13,6 @@ init {
 
 start {
 	vars.baseProsperity = current.prosperityLevel;
-	print("[ASL] " + timer.CurrentSplitIndex);
-
 	return current.population == 0 && current.gameStarted == 1 && current.peaceLevel == 0 && current.victory == 0;
 }
 
